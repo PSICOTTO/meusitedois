@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- Define que o HTML 5 será usado -->
+<html lang="pt-BR"> <!-- Início do documento HTML, a lang define qual o idioma do site -->
+	<head> <!-- Cabeçalho - Área para definir os ajustes do site, incluindo formatação -->
+		<meta charset="UTF-8"> <!--Define que o método de internacionalização do site -->
+		<title>Minha Página</title> <!-- Define o que será exibido na aba da página -->
+        <style>  /* Aqui colocamos estilização e formatação do site e de seus elementos */ 
+        	body { /*formatação do corpo da página */
+				font-family: Helvetica, sans-serif; /*fonte Arial, sem serifa*/ 
+				background-color: black; /*cor do fundo*/
+				text-align: center; /*alinhamento do texto*/
+				padding:20px; /*Espaçamento em pontos (pixels) do começo do corpo em relação ao topo do site */
+			}
+			h1 { /*formatação para header 1 (cabeçalho 1 de corpo de página) */
+				color: gray; /*mudança da cor fonte */
+			}
+			p { /*formatação para parágrafo */
+				color: white; /*mudança da cor fonte */	              	
+			} 
+			a { /*formatação de link */
+				color: blue;
+			} 
+			.rodape { /*criação de um elemento de formatação chamado rodape */
+				text-align: right;
+			}
+			.topo { /*criação de um elemento de formatação chamado topo */
+				text-align: left;
+			}
+            .tam_img { /*formatação de altura e largura do componente imagem do HTML */
+				height:100px;
+				width:120px;
+			}	
+			
+		</style>  <!-- Fim dos ajustes de estilização e formatação do site e de seus elementos -->  
+    </head> <!-- Fechando o cabeçalho de configuração -->
+    <body> <!-- Início do corpo da página/documento -->
+	    <p> <img src = "minha_foto.png" class="tam_img"> <!-- Exibição de imagem, imagem essa que se encontra na mesma pasta do documento HTML -->
+		<h1> OTTO </h1> <!--Exibição de texto em formato de cabeçalho 1 -->
+		<hr> <!-- Define uma linha divisória horizontal-->
+		 
+		<p>Meu nome é <a href="https://psicotto.github.io/bio/"> Nicholas,</a> ou pode me chamar de Otto mesmo, gosto de curtir uma boa música, ler e pedalar.</p> <!-- Abertura e encerramento de parágrafo -->
+		<p> Atualmente curso o 2º I, Técnico em Informática, da ETEC Alcídio de Souza Prado. </p>
+		<p> No momento estou aprendento <a href="https://www.hostinger.com.br/tutoriais/diferenca-entre-html-e-html5" target="_blank"> HTML </a> com <a href="https://www.cartolacomunicacao.com.br/Aula%2002.pdf" target="_blank"> CSS </a>. </p>
+		<br> <!-- Quebra de linha (branco)-->
+		<a href="https://pt.wikipedia.org/wiki/Subcultura_g%C3%B3tica" target="_blank"> <img src ="cross.jpg"> </a>
+		<br> <!-- Quebra de linha (branco)-->
+		<hr> <!-- Define uma linha divisória horizontal-->
+		<p class="rodape"> Site desenvolvido por Otto (2º I) © </p>
+		<!-- Define um link de texto para visita em endereço web-->
+    </body> <!-- Fechando o corpo da página/documento -->
+</html> <!-- Fecha o documento HTML -->
